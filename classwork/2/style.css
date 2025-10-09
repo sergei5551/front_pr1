@@ -1,0 +1,61 @@
+html{
+    font-size: 24px;
+}
+
+body{
+    
+    background-image: linear-gradient(to right, red, fuchsia);
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    font: normal 400 16px/1.6 "Roboto", sans-serif;
+    
+    /*text-shadow*/
+}
+
+div{
+    font: normal 1.5em "VariableFont", val;
+
+}
+
+@font-face {
+    font-family: "VariableFont";
+    src: url(/frontend/classwork/2/Bitcount_Prop_Single_Ink/BitcountPropSingleInk-VariableFont.ttf);
+}
+
+.heading {
+    color: orange;
+    font-size: 19px;
+}
+.card{
+    border: 5px solid green;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    aspect-ratio: 1/1;
+    border-radius: 16px;
+    box-shadow: 6px 6px 10px 2px rgba(22, 22, 22, 2);
+    
+
+}
+.big_card{
+    background-color: blueviolet;
+    aspect-ratio: 1/1.25;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: #3D3D3D;
+}
+
+.padding{
+    padding: 20px;
+}
+.margin{
+    margin: center;
+}
+#title{
+    color: rgb(106, 255, 0);
+}
