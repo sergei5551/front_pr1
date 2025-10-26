@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 200vh;
+}
+
+.container {
+  width: 400px;
+  aspect-ratio: 1 / 1;
+  background: black;
+  position: relative;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  gap: 20px;
+  row-gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 33%;
+  width: 48%;
+  background-color: red;
+
+  border-radius: 20%;
+}
