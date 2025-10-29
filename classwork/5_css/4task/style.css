@@ -1,0 +1,39 @@
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 300px;
+  position: relative;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 50%;
+  animation: loading 5s linear infinite;
+  /* исправлено */
+}
+
+#circle_2 {
+  margin-left: 15px;
+  position: relative;
+  animation-delay: 0.3s;
+}
+
+#circle_3 {
+  background-color: red;
+  top: -50px;
+  position: absolute;
+  animation-delay: 0.6s;
+}
